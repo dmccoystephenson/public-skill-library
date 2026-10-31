@@ -64,4 +64,4 @@ repository is public and still has its skill file. CI runs the check on every pu
 
 ## Licence
 
-See [LICENSE.md](LICENSE.md). Each skill carries its own licence in its repository.
+[MIT](LICENSE). Every skill listed here is MIT-licensed too; each repository carries its own copy.
