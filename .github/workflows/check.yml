@@ -1,0 +1,24 @@
+name: Check index
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 9 * * 1"   # Mondays 09:00 UTC (early morning in Denver, outside quiet hours)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the index
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/check_index.py
