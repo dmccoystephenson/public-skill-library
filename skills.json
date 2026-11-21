@@ -35,6 +35,13 @@
     "description": "Brings GitHub content that the gardener automation already posted in line with its passive-voice and attribution rules."
   },
   {
+    "name": "ports-and-adapters",
+    "repo": "dmccoystephenson/ports-and-adapters",
+    "path": "SKILL.md",
+    "category": "Quality and review",
+    "description": "Refactors a subsystem in any language into a pure core plus ports and adapters (one file each), proven behaviour-preserving by parity and architecture tests."
+  },
+  {
     "name": "create-minecraft-server",
     "repo": "dmccoystephenson/create-minecraft-server",
     "path": "create-minecraft-server.md",
