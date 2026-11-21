@@ -26,6 +26,7 @@ projects. Read a skill before running it.
 | [`/nielsen-krug-pass`](https://github.com/dmccoystephenson/nielsen-krug-pass/blob/HEAD/nielsen-krug-pass.md) | [dmccoystephenson/nielsen-krug-pass](https://github.com/dmccoystephenson/nielsen-krug-pass) | Runs a usability pass on a UI app against Nielsen's 10 heuristics and Krug's Don't Make Me Think. |
 | [`/claude-attribution-audit`](https://github.com/dmccoystephenson/claude-attribution-audit/blob/HEAD/claude-attribution-audit.md) | [dmccoystephenson/claude-attribution-audit](https://github.com/dmccoystephenson/claude-attribution-audit) | Finds GitHub posts made under your own account that Claude drafted but that lack an attribution sign-off, and revises them with confirmation. |
 | [`/gardener-attribution-audit`](https://github.com/dmccoystephenson/gardener-attribution-audit/blob/HEAD/gardener-attribution-audit.md) | [dmccoystephenson/gardener-attribution-audit](https://github.com/dmccoystephenson/gardener-attribution-audit) | Brings GitHub content that the gardener automation already posted in line with its passive-voice and attribution rules. |
+| [`/ports-and-adapters`](https://github.com/dmccoystephenson/ports-and-adapters/blob/HEAD/SKILL.md) | [dmccoystephenson/ports-and-adapters](https://github.com/dmccoystephenson/ports-and-adapters) | Refactors a subsystem in any language into a pure core plus ports and adapters (one file each), proven behaviour-preserving by parity and architecture tests. |
 
 ### Minecraft
 
